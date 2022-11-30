@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Clarusway Survey From</h1>
+    <p>Thank you for taking time to help us improve the platform</p>
+
+    <form>
+        <label for="name">Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="name" name="name" id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="Sname">Surname:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="name" name="Sname" id="Sname" placeholder="Enter your Surname">
+        <br><br>
+        <label for="email">Email:</label> &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" id="email" placeholder="user@clarusway.com">
+        <br><br>
+        <p>Which option best describes your current role?</p>
+        <input type="text" list="role" placeholder="Select current role">
+        <datalist id="role">
+            <option value="Student">
+            <option value="Mentor">
+            <option value="Instructor">
+        </datalist>
+        <p>Would you recommend Clarusway to a friend?</p>
+        <input type="radio" name="recommend" id="definetely" value="def">
+        <label for="definetely">Definetely, Yes</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="recommend" id="maybe" value="maybe">
+        <label for="maybe">Maybe</label>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="recommend" id="not" value="not">
+        <label for="not">Not sure</label>&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="recommend" id="definetelyn" value="defn">
+        <label for="definetelyn">Definetely, No</label>
+        <br><br>
+        <p>What would you like to see improved?     (Check all that apply)</p>
+
+        <input type="checkbox" name="FR" id="FR" value="FR">
+        <label for="FR">Front-end Projects</label>
+        <input type="checkbox" name="BE" id="BE" value="BE">
+        <label for="BE">Back-end Projects</label>
+        <input type="checkbox" name="DS" id="DS" value="DS">
+        <label for="DS">Data Science</label>
+        <input type="checkbox" name="AC" id="AC" value="AC">
+        <label for="AC">Additional Courses</label>
+        <br><br>
+        <p>Any comments or suggestions?</p>
+
+        <textarea name="textarea" id="textarea" cols="50" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+</body>
+</html>
