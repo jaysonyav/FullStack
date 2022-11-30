@@ -1,0 +1,106 @@
+<!Doctype html>
+<html>
+
+<head>
+  <title> HTML 5 Forms</title>
+</head>
+
+<body>
+
+  <form action="https://www.clarusway.com/" method="post">
+    <label for="username"> Username: </label> <br/>
+    <input type="text" id="username" name="username" size="25" maxlength="10" placeholder="Enter your username"/> 
+    <br/>  
+
+    <label for="password"> Password</label> <br/>
+    <input type="password" id="password" name="password" placeholder="Enter your password"> <br/>
+
+    <!-- <label> First Name: 
+      <input type="text" id="username" name="username" />
+    </label> -->
+
+    <!-- <button> Submit</button> -->
+     <input type="submit" value="Login"/>
+     <input type="reset" value="Reset Form"/>
+  </form>
+
+
+  <hr>
+
+
+  <form >
+
+    <p> Select your programming Language: </p>
+    
+    <input type="radio" name="language" id="html" value="html" checked>
+    <label for="html">HTML</label>
+    <br>
+    <input type="radio" name="language" id="css" value="css">
+    <label for="css">CSS</label>
+    <br>
+    <input type="radio" name="language" id="javascript" value="javascript">
+    <label for="html">JavaScript</label>
+    <br>
+
+    <p> Select multiple dates you are free</p>
+
+    <input type="checkbox" name="date" value="1" id="first">
+    <label for="first"> 11/29/2022 </label>
+    <br>
+    <input type="checkbox" name="date" value="1" id="second">
+    <label for="second"> 11/30/2022 </label>
+    <br>
+    <input type="checkbox" name="date" value="1" id="third">
+    <label for="third"> 12/01/2022 </label>
+    <br>
+    <input type="checkbox" name="date" value="1" id="fourth">
+    <label for="fourth"> 12/02/2022 </label>
+    <br>
+    <input type="checkbox" name="date" value="1" id="fifth">
+    <label for="fifth"> 12/03/2022 </label>
+    <br>
+
+    <p>What is your age</p>
+
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" min="1" max="100" step="0.5">
+    <br>
+
+    <p>Search</p>
+
+    <input type="search" pattern="2">
+    <br><br>
+
+    <p>Select Your Favourite Colour</p>
+
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color" value="#00ff00">
+    <br>
+
+    <p>Select your DOB:</p>
+
+    <input type="date" name="date" id="date" min="2020-05-05" value="2022-10-22" max="2025-12-30">
+
+    <br><br>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+
+    <br><br>
+    <input type="file" name="profile-img">
+    <br>
+    <br>
+
+    <label for="tel">Telephone</label>
+    <input type="tel" name="tel" id="tel">
+
+    <br>
+    <br>
+
+    <input type="reset" value="Reset">
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+
+</html>
