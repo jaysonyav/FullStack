@@ -1,0 +1,40 @@
+h1{
+    color: aqua;
+    background-color: seagreen;
+}
+
+#para{
+
+    color: black;
+
+
+
+}
+/*
+Selectors
+    elements/tag selector: tag{}(
+    >>Select all paragraph elements and make text colur aqua
+
+    p{
+            color: aqua;
+
+    }
+)
+
+universal selector (*)
+
+>>universal selector 
+
+*{
+    color:aqua;
+}
+
+id selector (#content)
+
+#content{
+
+    color:blue;
+
+
+*/
+
