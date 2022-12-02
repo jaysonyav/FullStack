@@ -1,0 +1,98 @@
+/* basic CSS reset */
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(244, 206, 213);
+}
+
+h1{
+
+    background-color: pink;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#clock{
+    text-align: center;
+}
+img{
+    height: 50px;
+    width: auto;
+ 
+}
+
+#main{
+    background-color: yellow;
+
+}
+table{
+
+    margin: auto;
+}
+
+th, td{
+    height: 100px;
+    width: 100px;
+    text-align: center; 
+}
+th{
+    color: blue;
+}
+#yellowSpan{
+    color: yellow;
+}
+
+.red{
+    color: red;
+}
+
+.sunday{
+    background-color: rgb(144, 251, 144);
+    color: black;
+}
+
+.blue{
+    color: blue;
+}
+
+#ch{
+    color: orange;
+    background-color: olive;
+}
+
+.JS{
+    color: black;
+    background-color: rgb(246, 66, 246);
+}
+
+.CSS{
+    color: black;
+    background-color: aqua;
+}
+
+.LC{
+    color: white;
+    background-color: blue;
+}
+#GS{
+    color: black;
+    background-color: orange;
+}
+.IW{
+    color: rgb(244, 149, 76);
+    background-color: rgb(197, 197, 197);
+}
+#TW{
+    color: rgb(145, 165, 172);
+    background-color: rgb(197, 197, 197);
+}
+
+#footer{
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+}
