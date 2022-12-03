@@ -1,0 +1,60 @@
+*{
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.header{
+    background-color: #E2DFDF;
+    padding: 50px;
+}
+#h1{
+    font-size: 50px;
+    margin: 0px;
+}
+#h2{
+    padding: px;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+#top-image{
+    width: 150px;
+    margin-top: -50px;
+    border: solid 10px white;
+    border-radius: 50%;
+}
+#bio-info{
+    font-size: 19px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.icon{
+    width: 40px;
+}
+ul li {
+display: inline;
+margin-left: 30px;
+}
+ul li a{
+    text-decoration: none;
+
+}
+#service{
+    background-color: #ddeeff;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+#h1-service{
+    padding: 2rem;
+}
+#sbutton{
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 10px;
+}
