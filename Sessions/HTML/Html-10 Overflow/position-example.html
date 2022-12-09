@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        .card{
+            margin: 200px auto;
+            width: 300px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+            padding: 1rem;
+            position: relative;
+            }
+        #close{
+            border: none;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <p>Want to coutinue?</p>
+        <button id="close">X</button>
+        <button>Ok</button>
+    </div>
+</body>
+</html>
