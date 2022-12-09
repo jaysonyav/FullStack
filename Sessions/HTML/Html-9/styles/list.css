@@ -1,0 +1,23 @@
+ol{
+    list-style-type:lower-latin;
+    list-style-type:upper-latin;
+    list-style-type:square;
+    list-style-type:lower-greek;
+    /* list-style-position: inside;
+    list-style-position: outside; */
+    background-color: darkcyan;
+}
+
+
+ul{
+    list-style-type: circle;
+    /* list-style-type: none; */
+    list-style-position: outside;
+    /* list-style-position: inside; */
+    list-style-type: '\274E';
+    border: 1px solid red;
+}
+
+ul li{
+    border: 1px solid red;
+}

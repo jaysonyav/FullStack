@@ -1,0 +1,18 @@
+table, th, td{
+    border: 2px solid green;
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th{
+    height: 70px;
+    vertical-align: bottom;
+}
+
+td{
+    text-align: center;
+    padding-bottom: 20px;
+}
