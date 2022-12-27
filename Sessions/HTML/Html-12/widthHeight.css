@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+}
+#section-1{
+    background-color: aqua;
+    width: 50%;
+    height: 25%;
+}
+
+#section-2{
+    background-color: beige;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid green;
+    box-sizing: border-box;
+}
+
+#max-width{
+    background-color: blanchedalmond;
+    max-width: 900px;
+    margin: auto;
+}
+
+#min-width{
+    background-color: aquamarine;
+    min-width: 700px;
+}
