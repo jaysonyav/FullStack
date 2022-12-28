@@ -1,0 +1,28 @@
+/* #my-section p{
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+} */
+
+/* main>p{
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+} */
+
+/* #section2 h2+p{
+    background-color: green;
+    padding: 1rem;
+    color: white;
+} */
+
+/* #section2 h2~p{
+    background-color: green;
+    padding: 1rem;
+    color: white;
+} */
+
+#my-section>p, #section2 h2+p{
+    background-color: blue;
+    color: white;
+}
