@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        #btn{
+            padding: 0.75rem 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: dodgerblue;
+            color: white;
+            cursor: pointer;
+            /* transition: background-color 2s; */
+            transition-property:all ;
+            /* transition-timing-function: ease-in; */
+            transition: background-color 1s ease-in 0.5s;
+        }
+
+        #btn:hover{
+            background-color: brown;
+            transform: scale(1.8);
+        }
+
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 1rem;
+            /* transition: all 0.4s; */
+            transition-property: all;
+            transition-duration: 2s;
+            /* transition-delay: 1s; */
+            transition-timing-function: linear;
+            transition-timing-function: ease-in;
+            transition-timing-function: ease-out;
+            transition-timing-function: ease-in-out;
+            transition-timing-function: ease;
+
+            transition: all 2s ease-in 1s;
+
+        }
+
+        #box1:hover{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <button id="btn">Click Me</button>
+
+    <div id="box1"></div>
+</body>
+</html>
