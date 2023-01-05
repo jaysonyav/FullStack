@@ -16,14 +16,40 @@
         .my-container{
             background-color: indianred;
             padding: 1rem;
+            
+            height: 600px;
+
             display: flex;
             flex-wrap: wrap;
             flex-wrap: wrap-reverse;
             
             /* Short Hand*/
 
-            
+            flex-flow: column wrap;
+            justify-content: flex-start;
+            justify-content: flex-end;
+            justify-content: center;
+            justify-content: space-around;
+            justify-content: space-between;
+            justify-content: space-between;
+            align-items: center;
+            align-items: flex-start;
+            align-items: flex-end;
+            align-items: stretch;
+            align-items: center;
         }
+
+        /* #item-1{
+            height: 100px;
+        }
+
+        #item-2{
+            height: 200px;
+        }
+
+        #item-3{
+            height: 300px;
+        } */
     </style>
 </head>
 <body>
@@ -31,16 +57,16 @@
     <h1>CSS Flex Basics</h1>
 
     <section class="my-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
+        <div id="item-1">1</div>
+        <div id="item-2">2</div>
+        <div id="item-3">3</div>
+        <!-- <div>4</div>
         <div>5</div>
         <div>6</div>
         <div>7</div>
         <div>8</div>
         <div>9</div>
-        <div>10</div>
+        <div>10</div> -->
     </section>
 </body>
 </html>
