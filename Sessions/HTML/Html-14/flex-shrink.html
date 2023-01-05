@@ -4,29 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex-grow</title>
+    <title>Document</title>
     <style>
         .container{
+            background-color: antiquewhite;
             display: flex;
             align-items: stretch;
-            background-color: antiquewhite;
+            
         }
 
-        div{
+        .container>div{
             background-color: dodgerblue;
             color: white;
+            width: 100px;
             margin: 10px;
             text-align: center;
             font-size: 30px;
-            padding: 1rem;
         }
     </style>
 </head>
 <body>
-    <section class="container">
-        <div style="flex-grow:1 ;">1</div>
-        <div style="flex-grow:3 ;">2</div>
-        <div style="flex-grow:1 ;">3</div>
-    </section>
+    
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div style="flex-shrink: 0;">3</div>
+        <div>4</div>
+        <div>5</div>
+        <div style="flex-shrink: 2;">6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
 </body>
 </html>

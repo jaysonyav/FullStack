@@ -1,0 +1,38 @@
+body{
+    background-color: #3f3f3f;
+}
+nav{
+    padding: 0.5rem;
+    background-color: #ec949a;
+}
+.logo, .menu, .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    background-color: #74e956;
+    height: 50px;
+}
+
+.menu{
+    background-color: #1db1f0;
+}
+
+.banner{
+    height: 300px;
+    background-color: #e44020;
+    margin-top: 20px;
+}
+
+.section{
+    background-color: #74e956;
+    height: 200px;
+    width: 32%;
+}
+.sections-container{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+}
