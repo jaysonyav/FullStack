@@ -1,0 +1,9 @@
+:root{
+    --primary-color: orange;
+    --secondary-color: lightblue;
+    --car-color: lightgreen;
+    --border-color: green;
+    --primary-unit: 10px;
+    --border-radius: 10px;
+    --border:green solid 10px;
+}

@@ -1,0 +1,16 @@
+@import "./varibles.css";
+@import "./card.css";
+
+.container{
+    width: 500px;
+    height: 500px;
+    border-radius: (var(--border-radius));
+    background-color: var(--secondary-color);
+    padding: var(--primary-unit);
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
