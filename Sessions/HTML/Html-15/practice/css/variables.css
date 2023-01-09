@@ -1,1 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=Prosto+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&family=Yeon+Sung&display=swap");
+@import url(./config.css);
+
+
+
+
+h1{
+    font-family: var(--ff-prosto);
+    font-size: var(--fs-2xl);
+    color: var(--orange-dark);
+}
+
+p{
+    font-size: var(--fs-md);
+    font-family: var(--ff-pt);
+}
+
+.dark-shadow{
+    box-shadow: var(--shadow-dark);
+    background-color: var(--green-light);
+    padding: 3rem;
+    font-size: var(--fs-sm);
+}
+
+.light-shadow{
+    box-shadow: var(--shadow-light);
+    background-color: var(--orange-light);
+    padding: 3rem;
+    font-size: var(--fs-lg);
+    font-family: var(--ff-sevillana);
+    color: var(--yellow);
+}

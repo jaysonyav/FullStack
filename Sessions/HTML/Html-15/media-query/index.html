@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         
+        body{
+            font-size: 20px;
+            padding: 30px;
+            background-color: lightblue;
+            text-align: center;
+        }
+        @media screen and (min-width:480px){
+            body{
+                background-color: lightgreen;
+            }
+            h1{
+                color: red;
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                border-radius: 10px;
+                background-color: green;
+                text-shadow: 1px 1px black;
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.307);
+            }
+            h1:hover{
+                background-color: aqua;
+            }
+        }
+
+        @media screen and (min-width:750px) {
+            body{
+                background-color: pink;
+            }
+        }
+
+        @media screen and (min-height:500px){
+            body{
+                background-color: bisque;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+</body>
+</html>

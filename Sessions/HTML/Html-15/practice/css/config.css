@@ -1,0 +1,29 @@
+:root {
+	--green-dark: hsl(168, 66%, 22%);
+	--green: hsl(115, 34%, 37%);
+	--green-light: hsl(75, 51%, 60%);
+	--yellow: hsl(52, 100%, 68%);
+	--orange: hsl(11, 100%, 59%);
+	--orange-light: hsl(11, 100%, 67%);
+	--orange-dark: hsl(11, 100%, 50%);
+
+	/* Font-families */
+	--ff-roboto: "Roboto", sans-serif;
+	--ff-prosto: "Prosto One", cursive;
+	--ff-pt: "PT Sans Narrow", sans-serif;
+	--ff-sevillana: "Sevillana", cursive;
+	--ff-yeon: "Yeon Sung", cursive;
+
+	/* Font Size */
+	--fs-3xl: 3rem;
+	--fs-2xl: 2rem;
+	--fs-xl: 1.8rem;
+	--fs-lg: 1.4rem;
+	--fs-md: 1rem;
+	--fs-sm: 0.8rem;
+	--fs-xs: 0.6rem;
+
+	/* Shadows */
+	--shadow-dark: 0 0 10px rgba(0, 0, 0, 0.4);
+	--shadow-light: 0 0 10px rgba(0, 0, 0, 0.15);
+}
