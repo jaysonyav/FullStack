@@ -1,0 +1,15 @@
+// :root{
+//     --primary: dodgerblue;
+//     --secondary: orange;
+// }
+
+$primary:dodgerblue;
+$secondary:orange;
+
+p{
+    color:$secondary;
+}
+
+h2{
+    background-color: $primary;
+}
