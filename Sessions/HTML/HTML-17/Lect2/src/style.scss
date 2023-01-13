@@ -1,0 +1,16 @@
+$primary-color: #333;
+$secondary-color: goldenrod;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 1rem;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
