@@ -1,0 +1,18 @@
+main {
+    max-width: 1200px;
+    margin: 10px auto;
+    section {
+      @include card;
+  
+      h1{
+          text-align: center;
+      }
+      &:last-child {
+        @include card(red, #333);
+      }
+  
+      &:first-child{
+          @include card(dodgerblue,white);
+      }
+    }
+  }

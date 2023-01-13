@@ -1,0 +1,30 @@
+@mixin card($bgColor:black,  $color:white){
+    background-color: $bgColor;
+    color: $color;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 1rem;
+}
+
+@mixin btn ($bgColor:gray, $color:black){
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin: 1rem;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.7;
+    }
+    background-color: $bgColor;
+    color: $color;
+}
+
+@function text-color($color){
+    @if(lightness($color)>40%){
+        @return #000;
+    }@else{
+        @return white;
+    }
+}

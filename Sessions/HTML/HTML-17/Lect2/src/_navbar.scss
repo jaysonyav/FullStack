@@ -1,0 +1,28 @@
+nav{
+    padding: 0.5rem;
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        height: 75px;
+    }
+
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            padding: 10px;
+            &:hover{
+                background-color: $secondary-color;
+                transition: 0.2s ease all;
+            }
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+                
+            }
+        }
+    }
+}

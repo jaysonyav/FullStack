@@ -1,16 +1,53 @@
-$primary-color: #333;
-$secondary-color: goldenrod;
+@import "global", "navbar", "mixins","main";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+//extenc
+// .btn{
+//     border: none;
+//     border-radius: 5px;
+//     padding: 0.5rem;
+//     font-size: 16px;
+//     margin: 1rem;
+//     cursor: pointer;
+//     &:hover{
+//         opacity: 0.7;
+//     }
+// }
+
+
+
+// .success{
+//     @extend .btn;
+//     background-color: green;
+//     color: white;
+// }
+
+// .danger{
+//     @extend .btn;
+//     background-color: red;
+//     color: white;
+// }
+
+// .warning{
+//     @extend .btn;
+//     background-color: orangered;
+//     color: white;
+// }
+
+
+.success{
+    @include btn(green,text-color(green));
+    
 }
 
-nav{
-    padding: 1rem;
-    background-color: $primary-color;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.danger{
+    @include btn(red,text-color(red))
+}
+
+.warning{
+    @include btn(orange,text-color(orange))
 }
