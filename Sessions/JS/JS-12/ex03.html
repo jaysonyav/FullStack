@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript DOM</title>
+  </head>
+  <body>
+    <h1>JavaScript Plus - DOM</h1>
+    <p>getElementsByName() example</p>
+    <p>Please rate the service:</p>
+    <p>
+      <input type="radio" name="rate" value="Very poor" /> Very poor
+      <input type="radio" name="rate" value="Poor" /> Poor
+      <input type="radio" name="rate" value="OK" /> OK
+      <input type="radio" name="rate" value="Good" /> Good
+      <input type="radio" name="rate" value="Very Good" /> Very Good
+    </p>
+    <p>
+      <button id="btnRate">Submit</button>
+    </p>
+    
+    <script>
+        const inputs = document.getElementsByName('rate');
+        console.log(inputs[0].innerHTML);
+    </script>
+  </body>
+</html>

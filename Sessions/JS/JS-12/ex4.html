@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM</title>
+    <style>
+      p::first-line {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript Plus - DOM</h1>
+    <p>querySelector() and querySelectorAll() examples</p>
+    <hr />
+    <header>
+      <div id="logo">
+        <img
+          src="https://clarusway.com/wp-content/uploads/2020/06/clarusway_logo.png"
+          alt="Logo"
+          id="logo"
+        />
+      </div>
+      <nav class="primary-nav">
+        <ul id="top-menu" class="nav">
+          <li class="menu-item">
+            <a href="https://clarusway.com/" aria-current="page">Home</a>
+          </li>
+          <li class="menu-item">
+            <a href="#">Programs</a>
+            <ul class="sub-menu">
+              <li class="menu-item">
+                <a href="https://clarusway.com/aws-devops/">AWS &amp; DevOps</a>
+              </li>
+              <li class="menu-item">
+                <a href="https://clarusway.com/full-stack-developer/"
+                  >Full Stack Development</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="https://clarusway.com/data-science/">Data Science</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="https://clarusway.com/events/">Events</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://clarusway.com/blog/">Blog</a>
+            <ul class="sub-menu">
+              <li class="menu-item">
+                <a href="https://clarusway.com/cloud-devops-engineering/"
+                  >Cloud &amp; DevOps Engineering</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="https://clarusway.com/career-and-job-finding/"
+                  >Career and Job Finding</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="https://clarusway.com/data-science-blog/"
+                  >Data Science &amp; Machine Learning</a
+                >
+              </li>
+              <li class="menu-item">
+                <a href="https://clarusway.com/full-stack-development/"
+                  >Full Stack Development</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a href="https://clarusway.com/faq/">FAQ</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://clarusway.com/about/">About</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://clarusway.com/contact-us/">Contact Us</a>
+          </li>
+          <li class="menu-item">
+            <a href="https://clarusway.com/referral/">Refer a Friend</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Welcome to the Clarusway IT School</h1>
+
+      <div class="container">
+        <section class="section-a">
+          <h2>AWS &amp; DevOps</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <span style>Autem placeat</span> , atque accusamus voluptas
+            laudantium facilis iure adipisci ab veritatis eos neque culpa id
+            nostrum tempora tempore minima. Adipisci, obcaecati repellat.
+          </p>
+          <button>Read More</button>
+        </section>
+        <section class="section-b">
+          <h2>Full-Stack Development</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni
+            fugiat similique illo nobis quibusdam commodi aspernatur, tempora
+            doloribus quod, consectetur deserunt, facilis natus optio. Iure
+            provident labore nihil in earum.
+          </p>
+          <button>Read More</button>
+        </section>
+        <section class="section-c">
+          <h2>Data Science</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eos
+            culpa laudantium consequatur ea! Quibusdam, iure obcaecati.
+            Adipisci<br />
+            deserunt, alias repellat eligendi odit labore! Fugit iste sit
+            laborum debitis eos? Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Vel velit facere explicabo?
+          </p>
+          <button>Read More</button>
+        </section>
+      </div>
+    </main>
+    <script>
+    const container =   document.querySelector('.container')
+    const logo = document.querySelector('#logo')
+    const paragraph = document.querySelector('p')
+    const paragraphs = document.querySelectorAll('p')
+    console.log(paragraphs[0].innerText);
+    console.log(paragraph.innerHTML);
+    </script>
+  </body>
+</html>
