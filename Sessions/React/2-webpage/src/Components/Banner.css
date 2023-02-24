@@ -1,0 +1,11 @@
+.Banner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)),url(../assets/roman-fox-fopKvYxlkbI-unsplash.jpg);
+    background-size:cover;
+    background-position: 100%;
+
+}
