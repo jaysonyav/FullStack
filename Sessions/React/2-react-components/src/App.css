@@ -1,0 +1,13 @@
+.App{
+    padding: 10px;
+    text-align: center;
+    color: black;
+    max-width: 450px;
+    margin: 25px auto;
+}
+
+.para{
+    margin: 5px 0px;
+    font-size: 18px;
+}
+
