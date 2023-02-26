@@ -3,34 +3,62 @@ import './App.css';
 import Footer from './footer'
 
 function App() {
-
-  const data="hello"
   return (
-    <div className="App">
-      <Header greetngText={data}/>
-      <Main greetngText={data}/>
-      <Footer greetngText={data}/>
+    <div>
+      <Top />
+      <Middle />
+      <Bottom />
     </div>
   );
 }
 
-
-function Header(props){
-  console.log(props.greetngText,'under hedaer');
-  return(
-    <h1 style={{color:"red",fontFamily:"cursive", backgroundColor:"teal", border:'2px solid black',boxShadow:'5px 5px 5px grey'}}>I am the header of this page</h1>
-  )
+function Top() {
+  return (
+    <h2
+      style={{
+        width: "200px",
+        height: "100px",
+        backgroundColor: "red",
+        margin: "0px",
+        color: "white",
+        border: "1px solid black"
+      }}
+    >
+      top
+    </h2>
+  );
 }
-
-function Main(props){
-  return(
-    <h2>I am the body of this page {props.greetngText}</h2>
-  )
+function Middle() {
+  return (
+    <h2
+      style={{
+        width: "200px",
+        height: "100px",
+        backgroundColor: "blue",
+        margin: "0px",
+        color: "white",
+        border: "1px solid black"
+      }}
+    >
+      middle
+    </h2>
+  );
 }
-
-
-
+function Bottom() {
+  return (
+    <h2
+      style={{
+        width: "200px",
+        height: "100px",
+        backgroundColor: "green",
+        margin: "0px",
+        color: "white",
+        border: "1px solid black"
+      }}
+    >
+      bottom
+    </h2>
+  );
+}
 
 export default App;
-
-let product1={name:'Iphone',year:2013}
