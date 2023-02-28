@@ -1,13 +1,19 @@
 
 import './App.css';
 import Footer from './footer'
+import Navigation from './navigation';
+import './myStyle.scss'
+import Parent from './common/Parent';
 
 function App() {
   return (
     <div>
+      <Parent/>
+      <Navigation/>
       <Top />
       <Middle />
       <Bottom />
+      <Footer />
     </div>
   );
 }
