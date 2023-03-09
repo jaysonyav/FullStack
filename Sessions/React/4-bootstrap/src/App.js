@@ -1,17 +1,12 @@
-
-// import AddEvents from './components/AddEvents';
-// import EventClassComp from './components/EventClassComp';
-// import EventObject from './components/EventObject';
-import StateClass from './components/StateClass';
+import UsersList from "./practice/UsersList";
 
 function App() {
   return (
-    <div>
-      {/* <EventObject/> */}
-      <StateClass/>
-  
-    </div>
-  );
+    <main className='container mt-5'>
+        <UsersList/>
+      </main>
+    )
+  ;
 }
 
 export default App;
