@@ -1,10 +1,15 @@
 
-import AddEvents from './components/AddEvents';
+// import AddEvents from './components/AddEvents';
+// import EventClassComp from './components/EventClassComp';
+// import EventObject from './components/EventObject';
+import StateClass from './components/StateClass';
 
 function App() {
   return (
     <div>
-      <AddEvents/>
+      {/* <EventObject/> */}
+      <StateClass/>
+  
     </div>
   );
 }
