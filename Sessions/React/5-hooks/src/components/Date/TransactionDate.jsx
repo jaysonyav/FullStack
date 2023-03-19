@@ -1,14 +1,24 @@
 import React from "react";
 import "./TransactionDate.css";
 
-const TransactionDate = ({ }) => {
+const TransactionDate = ({date}) => {
+
+  const formatedDate= date.toLocaleString('en-US', {
+    year:'numeric',
+    month:'long',
+    day:'numeric',
+  })
+
+  let [month,day,year] =formatedDate.split(' ')
+  day = day.slice(0,-1) 
+  
 
   return (
     <>
       <time datetime="2014-09-20" class="icon">
-        <em>Saturday</em>
-        <strong>September</strong>
-        <span>20</span>
+        <em>{year}</em>
+        <strong>{month}</strong>
+        <span>{day}</span>
       </time>
     </>
   );
