@@ -5,7 +5,7 @@ import Navigation from './components/Navigation';
 
 function App() {
 
-  const [auth,setAuth]=useState('')
+  const [auth,setAuth]=useState(false)
   return (
     <>
     <Navigation auth={false}/>
