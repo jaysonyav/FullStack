@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
     
-const Form = () => {
+const Form = ({login}) => {
     const [email,setEmail]=useState('')
     const [emailError,setEmailError]=useState(false)
     const [password, setPassword]=useState('')
@@ -20,12 +20,11 @@ const Form = () => {
         setPasswordError(true);
         else
         setPasswordError(false);
-        if(emailError || passwordError || !rules)
-        return;
-        else
-        
-
+        if(emailError || passwordError || !rules) {return}
+        else{
         console.log({email,password,role,rules});
+        login();
+        }
     }
   return (
     <form className='card card-body shadow m-5 w-50 mx-auto' onSubmit={submitHandler}>

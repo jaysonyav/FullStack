@@ -6,11 +6,15 @@ import Navigation from './components/Navigation';
 function App() {
 
   const [auth,setAuth]=useState(false)
+
+  const login =()=>{
+    setAuth(true)
+  }
   return (
     <>
-    <Navigation auth={false}/>
+    <Navigation auth={auth}/>
     <div class="container">
-      <Form/>
+      <Form login={login}/>
     </div>
     </>
   );
