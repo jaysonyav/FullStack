@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Form from './components/Form';
+import FormUnControlled from './components/FormUnControlled';
 import Navigation from './components/Navigation';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
     <>
     <Navigation auth={auth}/>
     <div class="container">
-      <Form login={login}/>
+      {/* <Form login={login}/> */}
+      <FormUnControlled login={login}/>
     </div>
     </>
   );
